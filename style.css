@@ -1,0 +1,160 @@
+/*
+color: #d7fffd písmo svetlé
+color: #262b37 menu
+color: #eeeeee pozadí světlé
+color: #00bdbd - pozadí o mne
+color: 
+*/
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #262b37;
+    line-height: 1.5;
+   
+}
+
+h1, h2{
+     text-transform: uppercase;
+     font-weight: 300;
+     font-size: 32px;
+     margin: 0;
+     text-align: center;
+     
+}
+
+h1{
+    padding: 10px;
+    font-size: 40px;
+    letter-spacing: 10px;
+}
+.menu{
+    position: sticky;
+    top: 0;
+    background-color: #262b37;
+    width: 100%;
+    
+   
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.menu li{
+ display: inline-block;
+ 
+}
+
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    color: #c3c8d6;
+    text-transform: uppercase;
+    padding: 20px 50px;
+}
+
+.menu a:hover,
+.menu a:focus{
+    color: #fff;
+
+    
+}
+
+.omne{
+    background-color:#36b5b0;
+    color: #fff;
+    padding: 70px 0 60px 0;
+   
+}
+
+.foto {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.foto img{
+    height: 150px;
+    border-radius:50%;
+    border: 1px solid #fff;
+    display: block;
+    margin: 15px auto;
+}
+
+
+.info{
+    width: 50%;
+    margin: 30px auto;
+}  
+.info h4{
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.info h4,
+.experience h4,
+.education h4{
+    margin: 0;
+}
+
+
+.info p{
+    margin:0 0 20px 0;
+
+}
+.info a{
+    color: #262b37;
+    text-decoration: none;
+}
+
+.info a:hover{
+        font-weight: 700;
+}
+.experience{
+    background-color: #eeeeee;
+    padding: 70px 0 60px 0;
+    
+}
+.experience h3,
+.experience p,
+.education h3,
+.education p {
+    margin: 0;
+}
+.work p:nth-child(4),
+.edu p:nth-child(3){
+    color: #84868d;
+}
+.work {
+    margin-bottom: 30px;
+    
+}
+.work h3:first-of-type {
+    margin-top: 20px;
+}
+
+.contain {
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.education{
+    padding: 70px 0 60px 0;
+    background-color: #fafafa;
+}
+.education ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.education li {
+    margin: 6px;
+    color: #84868d;
+}
